@@ -13,7 +13,7 @@ namespace SwipeMe
 		{
 			InitializeComponent();
 
-			MainPage = new SwipeMe.MainPage();
+			MainPage = new NavigationPage(new SwipeMe.MainPage());
 		}
 
 		protected override void OnStart ()

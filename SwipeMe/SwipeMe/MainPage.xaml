@@ -2,10 +2,32 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SwipeMe"
+             Title="Samarth - Swipe"
              x:Class="SwipeMe.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <StackLayout BackgroundColor="Firebrick" HorizontalOptions="FillAndExpand">
+            <Label x:Name="SwipeComment" 
+                    TextColor="White"
+                    Text="Swipe Me" FontSize="40" 
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                     />
+        </StackLayout>
+        <StackLayout BackgroundColor="AntiqueWhite" Padding="10" HorizontalOptions="FillAndExpand" >
+            <Label x:Name="SwipeArea" 
+                   HeightRequest="300" 
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   TextColor="White" 
+                   FontAttributes="Bold"
+                   Text="Swipe Me" 
+                   FontSize="50" 
+                   BackgroundColor="BlueViolet" />
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Button x:Name="btnOK" Text="OK"  />
+        </StackLayout>
+        
+    </StackLayout>
 </ContentPage>
