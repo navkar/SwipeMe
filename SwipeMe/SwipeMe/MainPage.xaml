@@ -6,7 +6,7 @@
              x:Class="SwipeMe.MainPage">
 
     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-        <StackLayout BackgroundColor="Firebrick" HorizontalOptions="FillAndExpand">
+        <StackLayout BackgroundColor="#FF8C00" HorizontalOptions="FillAndExpand">
             <Label x:Name="SwipeComment" 
                     TextColor="White"
                     Text="Swipe Me" FontSize="40" 

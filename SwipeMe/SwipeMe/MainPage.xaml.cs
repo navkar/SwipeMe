@@ -22,7 +22,7 @@ namespace SwipeMe
         {
             if (view == SwipeArea)
             {
-                SwipeComment.Text = string.Format("You swiped bottom");
+                SwipeComment.Text = string.Format("You swiped Down");
             }
         }
 
@@ -30,7 +30,7 @@ namespace SwipeMe
         {
             if (view == SwipeArea)
             {
-                SwipeComment.Text = string.Format("You swiped left");
+                SwipeComment.Text = string.Format("You swiped Left");
             }
         }
 
@@ -42,7 +42,7 @@ namespace SwipeMe
         {
             if (view == SwipeArea)
             {
-                SwipeComment.Text = string.Format("You swiped right");
+                SwipeComment.Text = string.Format("You swiped Right");
             }
         }
 
@@ -50,7 +50,7 @@ namespace SwipeMe
         {
             if (view == SwipeArea)
             {
-                SwipeComment.Text = string.Format("You swiped top");
+                SwipeComment.Text = string.Format("You swiped UP");
             }
         }
 
