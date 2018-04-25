@@ -22,4 +22,13 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataLib2\DataLib2.csproj" />
+    <ProjectReference Include="..\..\ServiceLib2\ServiceLib2.csproj" />
+  </ItemGroup>
 </Project>

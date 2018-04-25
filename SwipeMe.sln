@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwipeMe.Android", "SwipeMe\SwipeMe.Android\SwipeMe.Android.csproj", "{1DA2A177-E768-4D80-90E9-1C5C08094FD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwipeMe", "SwipeMe\SwipeMe\SwipeMe.csproj", "{5C986A85-EB28-4BED-811E-FC693C8E3172}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwipeMe", "SwipeMe\SwipeMe\SwipeMe.csproj", "{5C986A85-EB28-4BED-811E-FC693C8E3172}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLib2", "ServiceLib2\ServiceLib2.csproj", "{982B38C4-1059-4236-A1DB-A374ACEC5532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLib2", "DataLib2\DataLib2.csproj", "{D057DD38-89BB-4B19-A0DA-D9B0DA3207A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,14 @@ Global
 		{5C986A85-EB28-4BED-811E-FC693C8E3172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C986A85-EB28-4BED-811E-FC693C8E3172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C986A85-EB28-4BED-811E-FC693C8E3172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982B38C4-1059-4236-A1DB-A374ACEC5532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982B38C4-1059-4236-A1DB-A374ACEC5532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982B38C4-1059-4236-A1DB-A374ACEC5532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982B38C4-1059-4236-A1DB-A374ACEC5532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D057DD38-89BB-4B19-A0DA-D9B0DA3207A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D057DD38-89BB-4B19-A0DA-D9B0DA3207A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D057DD38-89BB-4B19-A0DA-D9B0DA3207A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D057DD38-89BB-4B19-A0DA-D9B0DA3207A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
