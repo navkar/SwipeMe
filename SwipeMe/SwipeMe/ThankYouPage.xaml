@@ -1,13 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:SwipeMe.Custom;assembly=SwipeMe"
              Title="Thank You!"
              x:Class="SwipeMe.ThankYouPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Thank You! " FontSize="50"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="20" BackgroundColor="#3D7EAA">
+            <controls:StatusScrollView x:Name="scrollItems" Orientation="Horizontal" HeightRequest="100">
+                <controls:StatusScrollView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout BackgroundColor="#FF8008" Padding="5">
+                                <Frame VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                                                    BackgroundColor="#833ab4"
+                                                    Padding="5"
+                                                    Margin="5">
+                                    <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                      </Grid.ColumnDefinitions>
+                                        <Label x:Name="lblCaption" Grid.Row="0" Grid.Column="0" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand" FontSize="40" Text="Hi, How are you!" />
+                                        <Label x:Name="lblCaption2" Grid.Row="1" Grid.Column="0" FontAttributes="Bold" TextColor="White" HorizontalOptions="Start" FontSize="10" Text="Hi!" />
+                                        <Label x:Name="lblCaption3" Grid.Row="2" Grid.Column="0" FontAttributes="Bold" TextColor="White" HorizontalOptions="Start" FontSize="10" Text="2018-04-26" />                       
+                                    </Grid>
+                                </Frame>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </controls:StatusScrollView.ItemTemplate>
+            </controls:StatusScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
